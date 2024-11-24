@@ -1,0 +1,383 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(-900deg, #110101, #2b2b2b, #440e0e);
+  
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+.Netflix-Nav{
+    margin-top: 25px;
+    display: flex;
+    position: absolute;
+    width: 100%;   
+    justify-content: space-around;
+
+}
+
+
+.Netflix-Home-Page-Nav{
+    gap: 40px;
+    position: absolute;
+    justify-content: start;
+    margin-left: 80%;
+}
+
+.CSS-Netlix-logo{
+    gap: 40px;
+    position: absolute;
+    justify-content: start;
+    margin-right: 90%;
+}
+
+.Netflix-Home-Page-Main{
+    height: 500px;
+    width: 80%;
+    position: absolute;
+    
+    justify-content: center;
+    align-items: center;
+
+    margin-top:5%;
+    margin-left: 100px;
+}
+
+.Main-Image{
+    border-radius: 20px;
+    opacity: 70%;
+    border: solid;
+    border-radius: 30px;
+    border-color: white;
+}
+.Netflix-Home-Page-Main h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    position: absolute;
+    bottom: 5px;
+    top: 110%;
+    left: 45%;
+    width: 100%;
+    text-align: justify;
+    
+}
+.Netflix-Home-Page-Main-txt h3{
+    position: relative;
+    margin-left: 600px;
+    left: 5%;
+    top: 110%;
+    bottom: 50px;
+
+}
+
+.input {
+    color: white;
+    border: 2px solid #8707ff;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: transparent;
+    max-width: 350px; /* Increase this value */
+    border-radius: 30px;
+    height: 45px;
+    width: 100%;
+    position: absolute;
+    right: 40%;
+}
+.input {
+    width: 500px;  /* Fixed width */
+}
+
+
+.cssbuttons-io-button {
+    background: #a370f0;
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    cursor: pointer;
+  }
+  
+  .cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  
+  .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+  }
+  
+  .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #7b52b9;
+  }
+  
+  .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+  }
+  
+  .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+  }
+  
+
+.Netflix-Home-Page-Email p{
+    position: relative;
+    top: 850px;
+    
+  }
+
+  #carouselExampleCaptions {
+    border-radius: 20px;
+    border: white;
+    border-radius: 75px;
+    background-color: transparent;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 5%;
+    top: 105%;
+    width: 90%;
+    max-width: 100%; 
+    margin: 0 auto; 
+}
+
+#carouselExampleCaptions .carousel-inner {
+    height: 400px; 
+}
+
+#carouselExampleCaptions .carousel-item img {
+    height: 400px; 
+    object-fit: cover; 
+}
+.card{
+  margin-top: 0%;
+  left: 76px;
+ background-color: transparent;
+}
+
+
+.card-body{
+  background-color: transparent;
+
+}
+
+.Netflix-Home-Cards-Grid{
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 15px;
+}
+
+.Netflix-Main{
+  position: absolute;
+  top: 158%;
+  
+}
+.Car-Heading{
+  position: absolute;
+  top: 74%;
+  left: 25px;
+}
+@media (max-width: 2000px) {
+  .Netflix-Home-Cards-Grid {
+    grid-template-columns: repeat(7, 1fr);
+  }
+}
+@media (max-width: 1600px) {
+  .Netflix-Home-Cards-Grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media (max-width: 1300px) {
+  .Netflix-Home-Cards-Grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 1000px) {
+  .Netflix-Home-Cards-Grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .Netflix-Home-Cards-Grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 575px) {
+  .Netflix-Home-Cards-Grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 450px) {
+  .Netflix-Home-Cards-Grid {
+    grid-template-columns: 1fr;
+  }
+}
+.Box-Cards{
+  position: absolute;
+  top: 200%;
+  left: 30%;
+  border-radius: 40px;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.Netflix-Checkboxs {
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 10px; 
+  justify-content: center; /
+}
+
+.Netflix-Checkboxs .card {
+  flex: 1 1 calc(25% - 20px); 
+  max-width: calc(25% - 20px); 
+  background-color: transparent; 
+  border: 1px solid #ccc; 
+  text-align: center; 
+}
+
+.Netflix-Checkboxs .card-body {
+  padding: 10px; 
+}
+
+@media (max-width: 768px) {
+  .Netflix-Checkboxs .card {
+    flex: 1 1 100%; 
+    max-width: 100%;
+  }
+}
+.Netflix-Checkboxs{
+  position: absolute;
+  width: 70%;
+  left: 10%;
+  bottom: -114%;
+
+}
+
+.Netflix-Checkboxs .card-title{
+  color: whitesmoke;
+}
+
+.Netflix-Checkboxs .card {
+  flex: 1 1 calc(25% - 20px); /* Equal size for cards */
+  max-width: calc(25% - 20px); /* Ensure the max width is consistent */
+  background-color: transparent; /* Default transparent background */
+  border: 1px solid #ccc; /* Optional: Border for differentiation */
+  text-align: center; /* Center the text */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth background and scaling animation */
+}
+
+.Netflix-Checkboxs .card:hover {
+  background-color: rgba(226, 230, 235, 0.2); 
+  color: black;
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+.Netflix-Checkboxs .card-body {
+  padding: 10px; /* Add padding for better spacing */
+}
+
+.Most-Netflix{
+  color: whitesmoke;
+  position: absolute;
+  top: 200%;
+  left: 1%;
+}
+
+.Last-Part{
+  position: relative;
+  top: 117%;
+  justify-items: center;
+  align-items: center;
+  left: 0px;
+
+}
+.Last-Part label{
+  color: whitesmoke;
+}
+
+/* Netflix-like Footer */
+.netflix-footer {
+  background-color: #141414; /* Dark Netflix-like background */
+  color: #b3b3b3;           /* Light gray text */
+  padding: 20px 0;
+  font-size: 14px;
+  position: absolute;
+  width: 100%;
+  top: 230%;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-links li a {
+  color: #b3b3b3;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links li a:hover {
+  color: #ffffff; /* Highlight on hover */
+}
+
+.footer-social {
+  margin: 20px 0;
+}
+
+.footer-social img {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+.footer-note {
+  font-size: 12px;
+  margin-top: 20px;
+}

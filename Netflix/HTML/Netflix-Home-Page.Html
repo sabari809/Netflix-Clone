@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="/CSS/Netflix-Home-Page.css">
+    <link rel="shortcut icon" href="/Images/Favion.jpeg" type="image/x-icon">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+
+  
+</head>
+<body>
+    <nav class="Netflix-Nav">
+        
+            <img src="https://brandpalettes.com/wp-content/uploads/2018/10/Netflix-Logo-PNG-300x81.png" alt="" height="30px" class="CSS-Netlix-logo">
+
+           
+               <div class="Netflix-Home-Page-Nav">
+              <ul>
+                   <!-- DropDown -->
+                    
+                   <div class="dropdown">
+
+                    <button class="btn btn-secondary dropdown-toggle rounded-pill bg-transparent type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Language
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item active" href="#">English</a></li>
+                      <li><a class="dropdown-item" href="#">French</a></li>
+                      
+
+                   <div class="nav-Signin">
+                     <!-- Signin -->
+                      <a href="/HTML/Netflix-Signup-Page.html"><button type="button" class="btn btn-outline-light rounded-pill">Signin</button></a>
+                   </div>
+                 
+              </ul>
+               </div>
+            
+        </div>
+    </nav>
+
+<!-- Header -->
+<header>
+    <main>
+        <div class="Netflix-Home-Page-Main">
+            <img src="/Images/Car.png" alt="" height="750px" width="110%" class="Main-Image">
+
+            <!-- <div class="Netflix-Home-Page-Main-txt">
+                <h1>Unlimited movies, TV <br>shows and more </h1>
+                <h3 style="color: whitesmoke;">Starts at $2 Cancel at any time.</h3>
+            </div> -->
+        </div>
+
+    </main>
+
+    <main>
+        <div class="Netflix-Home-Page-Email">
+            <p style="text-align: center; color: whitesmoke; ">Ready to watch? Enter your email to create or restart your membership</p>
+
+
+            <!-- Email -->
+            <div style="margin-top: 45%;">
+                <input placeholder="Email" class="input" name="text" type="text" aria-describedby="button-addon2" style="width: 500px;" />
+            
+            <button class="cssbuttons-io-button" style="height: 45px; width: 180px;  border-radius: 75px; left: 51%; background-color: transparent;  position: relative;"> Get started <div class="icon"> <svg height="24"width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="border-radius: 75px;"> <path d="M0 0h24v24H0z" fill="none" style="border-radius: 75px;"></path> <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"fill="currentColor" style="border-radius: 75px;"></path> </svg> </div> </button>
+            </div>
+
+
+            <!-- <div class="input-group mb-3" style="width: 600px; height: 40px;" >
+                <input type="text" class="form-control rounded-pill" placeholder="Email" aria-label="Recipient's username" aria-describedby="button-addon2"> -->
+                <!-- <button class="btn btn-outline-secondary rounded-pill" type="button" id="button-addon2" >GetStarted</button>
+              </div> -->
+        </div>
+
+    </main>
+<!-- Posters -->
+<h1 style="color: whitesmoke; left: 1%; position: absolute; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Most Viewed</h1>
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/Images/Screenshot (71).png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Amazing SpiderMan</h5>
+          <p>With great power comes great responsibility: the origin of a hero begins.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/Images/f885ce84-c2aa-4e0f-b5c8-904271da5119.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>After</h5>
+          <p>"After every happy moment lies the promise of another."</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/Images/Titanic.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Titanic</h5>
+          <p style="color: whitesmoke; font-weight: 700;">A timeless tale of love and tragedy aboard the ill-fated Titanic.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</header>
+  <!-- Cards -->
+  <h1 style="margin-top: 38%; color: whitesmoke;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" class="Car-Heading">Trending</h1>
+
+  <main class="Netflix-Main">
+    <div class="Netflix-Home-Cards-Grid">
+      <div class="card rounded" style="width: 15rem; ;">
+        <img src="/Images/Myfault-Caro.jpeg" class="card-img-top" alt="Myfault-Card" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">MY FAULT</h5>
+        </div>
+      </div>
+
+      <div class="card rounded" style="width: 15rem; ;">
+        <img src="/Images/ItEndsWithUs.jpeg" class="card-img-top" alt="Myfault-Card" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">IT ENDS WITH US</h5>
+        </div>
+      </div>
+
+      <div class="card rounded" style="width: 15rem; ;">
+        <img src="/Images/Captain America.jpeg" class="card-img-top" alt="Myfault-Card" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">CAPTAIN AMERICA</h5>
+        </div>
+      </div>
+
+
+      <div class="card rounded" style="width: 15rem; ;">
+        <img src="/Images/365-Days.jpeg" class="card-img-top" alt="Myfault-Card" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">365 DAYS</h5>
+        </div>
+      </div>
+
+      <div class="card rounded" style="width: 15rem; ;">
+        <img src="/Images/ff.jpg" class="card-img-top" alt="Myfault-Card" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">FIVE FEET</h5>
+        </div>
+      </div>
+
+      <div class="card rounded" style="width: 15rem; ;">
+        <img src="/Images/Harry-Potter.jpeg" class="card-img-top" alt="Myfault-Card" height="300px">
+        <div class="card-body">
+          <h5 class="card-title">HARRY POTTER</h5>
+        </div>
+      </div>
+
+      
+    </div>
+  
+  </main>
+
+
+<h1 class="Most-Netflix">More Reason to join</h1>
+<div class="Netflix-Checkboxs d-flex flex-wrap justify-content-center">
+  
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Stories tailored to your taste</h5>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Cancel or switch plans anytime</h5>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Stories tailored to your taste</h5>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Another custom message</h5>
+    </div>
+  </div>
+</div>
+
+<div class="Last-Part">
+  <form class="form-floating w-5 ">
+    <input type="email" class="form-control w-5 bg-transparent" id="floatingInputValue" placeholder="name@example.com" >
+    <label for="floatingInputValue" >Enter Email</label>
+  </form>
+</div>
+
+<footer class="netflix-footer">
+  <div class="footer-container">
+    <ul class="footer-links">
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Help Center</a></li>
+      <li><a href="#">Account</a></li>
+      <li><a href="#">Media Center</a></li>
+      <li><a href="#">Investor Relations</a></li>
+      <li><a href="#">Jobs</a></li>
+      <li><a href="#">Redeem Gift Cards</a></li>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms of Use</a></li>
+      <li><a href="#">Cookie Preferences</a></li>
+    </ul>
+    <div class="footer-social">
+      <p>Follow us:</p>
+      <a href="www.facebook.com"><img src="https://img.icons8.com/?size=100&id=62225&format=png&color=000000" alt="Facebook"></a>
+      <a href="www.twitter.com"><img src="https://img.icons8.com/?size=100&id=437&format=png&color=000000" alt="Twitter"></a>
+    </div>
+    <p class="footer-note">© 2024 Your Company. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
